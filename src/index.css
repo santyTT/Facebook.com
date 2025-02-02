@@ -1,0 +1,87 @@
+.topContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 97vh;
+}
+body{
+  background-color: #fff;
+}
+.logo-F {
+  width: 35%;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  width: 96%;
+}
+form input {
+  display: flex;
+  flex-direction: column;
+  padding: 18px 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  border: 1px solid #c1c1c194;
+  font-size: 16px;
+}
+form input::placeholder {
+  font-weight: 600;
+  font-size: 13px;
+  position: relative;
+  left: 7px;
+}
+.idioma {
+  margin-top: 40px;
+  font-family: sans-serif;
+  margin-bottom: 20px;
+  color: #747474;
+  font-weight: 600;
+  font-size: 13px;
+}
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin-top: 10px;
+  font-family: sans-serif;
+}
+.olvidado {
+  text-align: center; 
+  margin: 10px;
+  font-family: sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  text-decoration: none;
+  color: rgba(59, 59, 59, 0.8);
+  position: relative;
+}
+.bottom {
+  display: flex;
+  flex-direction: column;
+  margin-top: 25%;
+  height: 50vh;
+  align-items: center;
+  width: 100%;
+}
+.bottom button {
+  width: 100%;
+  padding: 10px;
+  border-radius: 50px;
+  border: 1px solid #0064e0;
+  background-color: transparent;
+  color: #0064e0;
+  font-size: 13px;
+}
+.bottom img {
+  width: 70px;
+}
+.sesion {
+  width: 100%;
+  padding: 10px;
+  border-radius: 50px;
+  border: 1px solid #0064e0;
+  background-color: #0064e0;
+  color: #fafafa;
+  font-size: 13px;
+}
