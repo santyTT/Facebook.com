@@ -20,11 +20,11 @@ form {
 form input {
   display: flex;
   flex-direction: column;
-  padding: 18px 10px;
+  padding: 15px 10px;
   margin-bottom: 10px;
   border-radius: 10px;
   border: 1px solid #c1c1c194;
-  font-size: 16px;
+  font-size: 14px;
 }
 form input::placeholder {
   font-weight: 600;
@@ -74,7 +74,7 @@ form input::placeholder {
   font-size: 13px;
 }
 .bottom img {
-  width: 70px;
+  width: 50px;
 }
 .sesion {
   width: 100%;
